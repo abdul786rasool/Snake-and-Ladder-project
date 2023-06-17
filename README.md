@@ -1,8 +1,8 @@
 # Snake-and-Ladder-project
 I developed a code which helps to know the path with minimum no of moves to reach the target.
 
-                                                                 Snake and Ladder Game:
-                                                              ------------------------------
+Snake and Ladder Game:
+-----------------------
 The Snake and Ladder Game is a classic board game where players aim to reach the final position on the board by rolling a dice and moving their game piece accordingly. The board consists of numbered squares from 1 to 100. The game includes various attributes associated with certain squares, which add excitement and unpredictability to the gameplay. 
 
 The main attributes in the game are:
@@ -15,8 +15,8 @@ The main attributes in the game are:
 
 4)Special Moves (M): Special moves allow players to make only a specific move from a square. The attribute Mn indicates that players can only make a move of size n from that square. This adds additional challenges and decision-making to the gameplay.
 
-                                                                    Code Description:
-                                                              --------------------------
+Code Description:
+------------------
 The provided code implements the Snake and Ladder Game using a dynamic programming approach. It includes the following main components:
 
 Game Initialization: The code initializes the game by setting up the game board, represented by the game_box vector. Each element in the vector corresponds to a square on the board and contains an attribute. Ladders are denoted by Ln, snakes by Sn, move restrictions by Rn, and special moves by Mn.
